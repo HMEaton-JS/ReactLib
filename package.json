@@ -1,0 +1,52 @@
+{
+  "name": "common-ui-library",
+  "version": "1.0.0",
+  "description": "A library containing the common modules",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yatendubey/common-ui-library.git"
+  },
+  "author": "Happiest Minds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yatendubey/common-ui-library/issues"
+  },
+  "homepage": "https://github.com/yatendubey/common-ui-library#readme",
+  "peerDependencies": {
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "@tulipjs/eslint-config": "^1.1.1",
+    "babel-loader": "^8.0.1",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0",
+    "jest": "^24.7.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.6.1",
+    "@material-ui/icons": "^4.5.1",
+    "@pxblue/icons": "^1.0.24",
+    "@pxblue/icons-svg": "^1.0.17",
+    "@pxblue/react-components": "^1.1.0",
+    "@pxblue/themes": "^2.2.4",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^6.7.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "styled-components": "^4.2.1"
+  }
+}
