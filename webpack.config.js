@@ -17,18 +17,13 @@ module.exports = {
 				// If you want to use the .jsx extension, you can change this line to
 				// test: /\.jsx?$/,
 				// The ? in the regex just means "optional"
-				test: /\.jsx?$/,
-				
-
+				test: /\.js$/,
 				// Don't bother spending time transpiling your installed packages
 				// exclude: /node_modules/,
 				// This is where we tell webpack to use babel to transpile our JS.
 				// The configuration can go here, but in this case it's in ./babelrc.js
 				use: {
 					loader: 'babel-loader',
-					options: {
-						presets: ['@babel/preset-env', '@babel/react']
-						}
 				},
 			},
 			{
@@ -59,7 +54,7 @@ module.exports = {
 	},
 	// Here we define explicitly the file types we intend to deal with
 	resolve: {
-		extensions: ['.scss', '.jsx','.js', '.json', '.png', '.gif', '.jpg', '.svg'],
+		extensions: ['.scss', '.js', '.json', '.png', '.gif', '.jpg', '.svg'],
 	},
 	// This is where we define how everything gets output.
 	// dist is a common output folder, and it should be gitignored. The build can
