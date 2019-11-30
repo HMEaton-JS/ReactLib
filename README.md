@@ -40,7 +40,7 @@ const MoreIcon = wrapIcon({ IconClass: MatIcon, name: 'more-vert' });\
 &nbsp;        leftIcon={<MatIcon name={'notifications'} size={24} />}\
 &nbsp;        title={<Body color={'error'}>1 Alarm</Body>}\
 &nbsp;    />
-</ScoreCard>
+&nbsp;< /ScoreCard >
 
 
 API
