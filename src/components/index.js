@@ -1,2 +1,1 @@
-export { default as ScoreCard } from './ScoreCard/ScoreCard';
-
+export { default as ScoreCard } from './ScoreCard';
