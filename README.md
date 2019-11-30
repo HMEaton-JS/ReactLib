@@ -34,13 +34,13 @@ const MoreIcon = wrapIcon({ IconClass: MatIcon, name: 'more-vert' });\
 &nbsp;&nbsp;                IconClass={A}\
 &nbsp;&nbsp;            />\
 &nbsp;&nbsp;        </HeroBanner>\
-&nbsp;    }> \
+&nbsp;    }> 
 
 &nbsp;    <ListItem\
 &nbsp;        leftIcon={<MatIcon name={'notifications'} size={24} />}\
 &nbsp;        title={<Body color={'error'}>1 Alarm</Body>}\
 &nbsp;    />
-</ScoreCard>\
+</ScoreCard>
 
 
 API
