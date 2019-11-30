@@ -4,21 +4,21 @@
   "description": "A library containing the common modules",
   "main": "./dist/uilibrary.js",
   "scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"clean-dist": "rm -f -r -d dist",
-    "build": "npm run clean-dist && webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean-dist": "rm -f -r -d dist",
+    "build": "webpack --mode development",
     "build-npm": "npm run babel src --presets @babel/preset-react,@babel/preset-env --out-dir ../core"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yatendubey/common-ui-library.git"
+    "url": "git+https://github.com/HMEaton-JS/ReactLib.git"
   },
   "author": "Happiest Minds",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yatendubey/common-ui-library/issues"
+    "url": "https://github.com/HMEaton-JS/ReactLib/issues"
   },
-  "homepage": "https://github.com/yatendubey/common-ui-library#readme",
+  "homepage": "https://github.com/HMEaton-JS/ReactLib#readme",
   "peerDependencies": {
     "@material-ui/core": "^3.9.3",
     "react": "^16.8.6",
