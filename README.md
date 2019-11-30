@@ -8,7 +8,7 @@ Usage
 import { Hero, HeroBanner, Body, wrapIcon } from '@pxblue/react-components';\
 import {ScoreCard} from 'common-ui-library';\
 import { List, ListItem, ListItemText, ListItemIcon } from '@material-ui/core';\
-import MatIcon from 'react-native-vector-icons/MaterialIcons';\
+import MatIcon from '@material-ui/icon';\
 import * as PXBColors from '@pxblue/colors';\
 import _A from '@pxblue/icons-svg/grade_a.svg';\
 const A = wrapIcon({ IconClass: _A });\
@@ -16,33 +16,30 @@ const MoreIcon = wrapIcon({ IconClass: MatIcon, name: 'more-vert' });\
 ...\
 \
 <ScoreCard\
-    headerTitle={'SubStation1'}\
-    headerSubtitle={'Normal'}\
-	headerInfo={'1 Device'}\
-    actionItems={[\
-        { icon: MoreIcon, onPress: () => { } }\
-    ]}\
-    badgeOffset={-55}\
-    badge={\
-        <HeroBanner style={{ flex: 0, minWidth: 80, justifyContent: 'flex-end' }}>\
-            <Hero\
-                label={'Score'}\
-                iconSize={48}\
-                iconColor={PXBColors.green[500]}\
-                value={98}\
-                units={'/100'}\
-                IconClass={A}\
-            />\
-        </HeroBanner>\
-    }\
-    actionRow={\
-        <InfoListItem title={'View Location'} rightComponent={<ChevronRight\ color={'inherit'} />} />\
-    }\
->\
-    <ListItem\
-        leftIcon={<MatIcon name={'notifications'} size={24} />}\
-        title={<Body color={'error'}>1 Alarm</Body>}\
-    />\
+&nbsp;    headerTitle={'SubStation1'}\
+&nbsp;    headerSubtitle={'Normal'}\
+&nbsp;	headerInfo={'1 Device'}\
+&nbsp;    actionItems={[\
+&nbsp;&nbsp;        { icon: MoreIcon, onPress: () => { } }\
+&nbsp;&nbsp;    ]}\
+&nbsp;    badgeOffset={-55}\
+&nbsp;    badge={\
+&nbsp;&nbsp;        <HeroBanner style={{ flex: 0, minWidth: 80, justifyContent: 'flex-end' }}>\
+&nbsp;&nbsp;            <Hero\
+&nbsp;&nbsp;                label={'Score'}\
+&nbsp;&nbsp;                iconSize={48}\
+&nbsp;&nbsp;                iconColor={PXBColors.green[500]}\
+&nbsp;&nbsp;                value={98}\
+&nbsp;&nbsp;                units={'/100'}\
+&nbsp;&nbsp;                IconClass={A}\
+&nbsp;&nbsp;            />\
+&nbsp;&nbsp;        </HeroBanner>\
+&nbsp;    }> \
+
+&nbsp;    <ListItem\
+&nbsp;        leftIcon={<MatIcon name={'notifications'} size={24} />}\
+&nbsp;        title={<Body color={'error'}>1 Alarm</Body>}\
+&nbsp;    />\
 </ScoreCard>\
 
 
