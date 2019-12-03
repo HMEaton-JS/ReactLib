@@ -2,7 +2,7 @@ ScoreCard component
 ===================
 Card component that calls attention to particular values.
 
-![ ](https://github.com/HMEaton-JS/ReactLib/reference_image.png)
+![ ](https://github.com/HMEaton-JS/ReactLib/blob/master/reference_image.png)
 
 Usage
 =====
