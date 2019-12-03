@@ -1,12 +1,11 @@
 ScoreCard component
 ===================
-Card component that calls attention to particular values.\
-This card is divided in three sections named Header, Body and Footer.\
+Card component that calls attention to particular values.
 
-Header : Header consists of Cards Title, SubTitle and device info. Also allows an action.
-Body : Cards body consists of various information including alarm, event, status and other information.\
-
-Footer : This includes a users action
+This card is divided in three sections named Header, Body and Footer.
+* Header - Header consists of Cards Title, Status and device info. Also allows an action.
+* Body - Cards body consists of various information including alarm, event, status and other parameters.
+* Footer - This includes a users action
 
 ScoreCard Image Reference
 =========================
@@ -34,20 +33,20 @@ const MoreIcon = wrapIcon({ IconClass: MatIcon, name: 'more-vert' });\
 &nbsp;    badgeOffset={-55}\
 &nbsp;    badge={\
 &nbsp;&nbsp;        <HeroBanner style={{ flex: 0, minWidth: 80, justifyContent: 'flex-end' }}>\
-&nbsp;&nbsp;            <Hero\
-&nbsp;&nbsp;                label={'Score'}\
-&nbsp;&nbsp;                iconSize={48}\
-&nbsp;&nbsp;                iconColor={PXBColors.green[500]}\
-&nbsp;&nbsp;                value={98}\
-&nbsp;&nbsp;                units={'/100'}\
-&nbsp;&nbsp;                IconClass={A}\
-&nbsp;&nbsp;            />\
+&nbsp;&nbsp; &nbsp; &nbsp;           <Hero\
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;              label={'Score'}\
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;              iconSize={48}\
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;              iconColor={PXBColors.green[500]}\
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;              value={98}\
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;              units={'/100'}\
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;              IconClass={A}\
+&nbsp;&nbsp; &nbsp; &nbsp;           />\
 &nbsp;&nbsp;        </HeroBanner>\
 &nbsp;    }> 
 
 &nbsp;    <ListItem\
-&nbsp;        leftIcon={<MatIcon name={'notifications'} size={24} />}\
-&nbsp;        title={<Body color={'error'}>1 Alarm</Body>}\
+&nbsp; &nbsp; &nbsp; &nbsp;      leftIcon={<MatIcon name={'notifications'} size={24} />}\
+&nbsp; &nbsp; &nbsp; &nbsp;      title={<Body color={'error'}>1 Alarm</Body>}\
 &nbsp;    />
 &nbsp;< /ScoreCard >
 
