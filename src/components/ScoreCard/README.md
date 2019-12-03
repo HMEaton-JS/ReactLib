@@ -1,7 +1,15 @@
 ScoreCard component
 ===================
-Card component that calls attention to particular values.
+Card component that calls attention to particular values.\
+This card is divided in three sections named Header, Body and Footer.\
 
+Header : Header consists of Cards Title, SubTitle and device info. Also allows an action.
+Body : Cards body consists of various information including alarm, event, status and other information.\
+
+Footer : This includes a users action
+
+ScoreCard Image Reference
+=========================
 ![ ](https://github.com/HMEaton-JS/ReactLib/blob/master/reference_image.png)
 
 Usage
