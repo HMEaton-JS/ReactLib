@@ -43,7 +43,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "webpack": "^4.28.3",
-    "webpack-cli": "^3.2.0",
+    "webpack-cli": "^3.3.12",
     "@tulipjs/eslint-config": "^1.1.1",
     "babel-loader": "^8.0.1",
     "css-loader": "^1.0.0",
